@@ -32,3 +32,21 @@
 
     if you want to re-run your project mean 
         npm run dev
+
+
+18/08/2026
+
+## props
+
+    Props is nothing but drilling data from parent to child components.
+
+            declearing props
+            Destructuring props
+
+## Conditional rendering 
+
+    Conditional rendering means showing or hiding  parts of UI based on some Condition
+
+                ternary operator  {Condition ? true:false}
+                logical operator  && || !
+
