@@ -2,6 +2,7 @@ import React from "react";
 import Greeting from "./Greeting";
 import DestructuringProps from "./DestructuringProps";
 import ConditionalRender from "./ConditionalRender";
+import ListRendering from "./component/ListRendering";
 
 export default function App() {
   const name22 = "Props";
@@ -18,10 +19,14 @@ export default function App() {
   const name3 = "hari";
   const age3 = "2884";
   const city3 = "chennai";
+
+  const user = true;
   return (
     <>
+      <ListRendering />
       <ConditionalRender />
-      <h1>hello world---{name22}</h1>
+
+      <h1 style={{ padding: "20px", color: "red" }}>hello world---{name22}</h1>
       <Greeting firstName={name22} count={count} />
       <DestructuringProps name={name} age={age} city={city} />
       <DestructuringProps name={name2} age={age2} city={city2} />

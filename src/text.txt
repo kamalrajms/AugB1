@@ -50,3 +50,28 @@
                 ternary operator  {Condition ? true:false}
                 logical operator  && || !
 
+19/08/2026
+
+## List rendering
+
+    rendering multiple item dynamically using .map()
+
+
+    array=[1,2,3,4]
+
+    array.map((num)=>(
+        num*2
+    ))
+
+    new array=[2,4,6,8]
+
+
+## style in react
+
+    global style -- index.css and app.css is called as global style.
+    Local style -- to create a seperate css file for a component
+    module style -- to implement this module style we need to create a seperate  file  
+                    name as eg:[filename.module.css]
+    inline style -- we need to declear style attribute with {{padding:"20px"}}
+    object style -- we need to declear a styleing properties as an object 
+                    in keys and value pair.

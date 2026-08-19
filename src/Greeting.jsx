@@ -4,7 +4,7 @@ import Hello from "./Hello";
 export default function Greeting(props) {
   const name = "Bala";
   return (
-    <div>
+    <div className="Greeting">
       <h1>react intro-- {name}</h1>
       <h2>
         name is -{props.firstName}
