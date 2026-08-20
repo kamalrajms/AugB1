@@ -75,3 +75,28 @@
     inline style -- we need to declear style attribute with {{padding:"20px"}}
     object style -- we need to declear a styleing properties as an object 
                     in keys and value pair.
+
+
+
+20/08/2026
+
+## usestate()
+
+    usestate is a react hook that allows you to add state (data that can change over time)
+    to a functional component.
+
+    Normally, in js function ,variables are disappear after the function runs,
+    But with usesate, React remember values b/w re-render.
+
+
+
+    syntax:
+
+    const name=5
+
+    const [state,setState]=usestate(initialValue)
+    const [count,setCount]=usestate(555)
+
+    state-- the current value of the state variable.
+    setState -- a function that update the state.
+    initialValue -- the starting value of the state.

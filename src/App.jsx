@@ -3,6 +3,9 @@ import Greeting from "./Greeting";
 import DestructuringProps from "./DestructuringProps";
 import ConditionalRender from "./ConditionalRender";
 import ListRendering from "./component/ListRendering";
+import UseStateHook from "./component/UseStateHook";
+import DarkMode from "./component/DarkMode";
+import Field from "./component/Field";
 
 export default function App() {
   const name22 = "Props";
@@ -23,6 +26,9 @@ export default function App() {
   const user = true;
   return (
     <>
+      <Field />
+      <DarkMode />
+      <UseStateHook />
       <ListRendering />
       <ConditionalRender />
 
