@@ -6,6 +6,9 @@ import ListRendering from "./component/ListRendering";
 import UseStateHook from "./component/UseStateHook";
 import DarkMode from "./component/DarkMode";
 import Field from "./component/Field";
+import RegForm from "./component/RegForm";
+import ConditionForm from "./component/ConditionForm";
+import UseEffectHook from "./component/UseEffectHook";
 
 export default function App() {
   const name22 = "Props";
@@ -26,6 +29,9 @@ export default function App() {
   const user = true;
   return (
     <>
+    <UseEffectHook/>
+      <ConditionForm />
+      <RegForm />
       <Field />
       <DarkMode />
       <UseStateHook />
